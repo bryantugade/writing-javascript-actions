@@ -12,4 +12,7 @@ jobs:
 
     - name: hello-action
       uses: ./.github/actions/hello-world
-
+      with:
+          first-greeting: "This message"
+          second-greeting: "should be"
+          third-greeting:  "Our message"
